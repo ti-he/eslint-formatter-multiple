@@ -4,11 +4,13 @@ A meta formatter for eslint that will output to multiple formats
 
 ## Install
 
-`npm install --save-dev eslint-formatter-multiple`
+`npm install --save-dev https://github.com/ti-he/eslint-formatter-multiple.git`
+
+`yarn add --dev https://github.com/ti-he/eslint-formatter-multiple.git`
 
 ## Usage
 
-Update your package.json to have a new section:
+Define a stringified env variable called `ESLINT_MULTI_FORMATTER_CONFIG`
 
 ```
   "eslint-formatter-multiple": {
